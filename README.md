@@ -1,6 +1,3 @@
-<h1 align="center">
-	<img alt="GoStack" src=".github/logo.svg" width="200px" />
-</h1>
 <img alt="Mockup" src="https://res.cloudinary.com/eliasgcf/image/upload/v1587509596/GoBarber/mockup_ocggit.png">
 </br>
 <p align="center">
