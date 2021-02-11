@@ -36,6 +36,7 @@
     "import/no-duplicates": "off",
     "eslint@typescript-eslint/ban-types": "off",
     "@typescript-eslint/camelcase": "off",
+    "camelcase": ["error", { "allow": ["password_confirmation"] }],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
