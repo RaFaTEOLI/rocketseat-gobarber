@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  input:focus, textarea:focus, select:focus {
+  input:focus, textarea:focus, select:focus, div:focus {
     outline: none;
   }
 

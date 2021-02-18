@@ -22,11 +22,16 @@ export const HeaderContent = styled.div`
     margin-left: auto;
     background: transparent;
     border: 0;
+    cursor: pointer;
 
     svg {
       color: #999591;
       width: 20px;
       height: 20px;
+    }
+
+    svg:hover {
+      color: #ff9000;
     }
   }
 `;
@@ -174,6 +179,7 @@ export const Appointment = styled.div`
     display: flex;
     align-items: center;
     color: #f4ede8;
+    width: 70px;
 
     svg {
       color: #ff9000;
