@@ -38,7 +38,7 @@
     "@typescript-eslint/camelcase": "off",
     "camelcase": [
       "error",
-      { "allow": ["password_confirmation", "avatar_url"] }
+      { "allow": ["password_confirmation", "avatar_url", "old_password"] }
     ],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
