@@ -35,6 +35,10 @@
     "import/no-duplicates": "off",
     "eslint@typescript-eslint/ban-types": "off",
     "@typescript-eslint/camelcase": "off",
+    "camelcase": [
+      "error",
+      { "allow": ["password_confirmation", "avatar_url", "old_password"] }
+    ],
     // note you must disable the base rule as it can report incorrect errors
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
