@@ -37,7 +37,14 @@
     "@typescript-eslint/camelcase": "off",
     "camelcase": [
       "error",
-      { "allow": ["password_confirmation", "avatar_url", "old_password"] }
+      {
+        "allow": [
+          "password_confirmation",
+          "avatar_url",
+          "old_password",
+          "provider_id"
+        ]
+      }
     ],
     // note you must disable the base rule as it can report incorrect errors
     "no-use-before-define": "off",
