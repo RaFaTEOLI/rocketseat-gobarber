@@ -5,6 +5,7 @@ import DayPicker, { DayModifiers } from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
 
 import { FiPower, FiClock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import {
   Container,
   Header,
@@ -21,7 +22,6 @@ import {
 import logoImg from '../../assets/logo.svg';
 import { useAuth } from '../../hooks/auth';
 import api from '../../services/api';
-import { Link } from 'react-router-dom';
 
 interface MonthAvailabilityItem {
   day: number;
@@ -108,9 +108,7 @@ const Dashboard: React.FC = () => {
   }, [currentMonth, monthAvailability]);
 
   const selectedDateAsText = useMemo(() => {
-    return format(selectedDate, "'Dia' dd 'de' MMMM", {
-      locale: ptBR,
-    });
+    return format(selectedDate, "'Dia' dd 'de' MMMM", { locale: ptBR });
   }, [selectedDate]);
 
   const selectedWeekDay = useMemo(() => {
